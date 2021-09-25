@@ -1,0 +1,107 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    scroll-behavior: smooth;
+    font-size: 62.5%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+    background-color: rgb(47, 47, 47);
+}
+
+.logo {
+    font-size: 4rem;
+    margin-left: 20rem;
+    margin-top: 10rem;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #ff7a7a;
+}
+
+.sub-heading {
+    margin-left: 20rem;
+    color: white;
+}
+
+hr {
+    margin-top: 4rem;
+    margin-right: 6rem;
+    margin-bottom: 4rem;
+    margin-left: 6rem;
+}
+
+.teaching-exp > .title {
+    font-size: 2.4rem;
+    margin-left: 20rem;
+    margin-bottom: 2rem;
+    color: lightskyblue;
+}
+
+.teaching-exp > ul > li {
+    font-size: 1.5rem;
+    margin-left: 22rem;
+    color: white;
+}
+
+.work-exp > .title {
+    font-size: 2.4rem;
+    margin-left: 20rem;
+    margin-bottom: 2rem;
+    color: lightskyblue;
+}
+
+.work-table {
+    margin-left: 20rem;
+    font-size: 1.5rem;
+    color: white;
+}
+
+.tb1 {
+    margin-right: 2rem;
+}
+
+.tb2 {
+    margin-right: 2rem;
+}
+
+.skills > .title {
+    font-size: 2.4rem;
+    margin-left: 20rem;
+    margin-bottom: 2rem;
+    color: lightskyblue;
+}
+
+.sk-main {
+    margin-left: 20rem;
+    color: white;
+    font-size: 1.5rem;
+}
+
+.tb21 {
+    margin-right: 2rem;
+}
+
+.contact {
+    text-decoration: none;
+    font-size: 2.6rem;
+    margin-left: 166rem;
+    margin-top: -3rem;
+    transition: 0.2s;
+    color: white;
+    border: 0.1rem solid steelblue;
+    background: steelblue;
+    padding-top: 0.5rem;
+    padding-right: 1rem;
+    padding-bottom: 0.5rem;
+    padding-left: 1rem;
+    border-radius: 1rem;
+}
+
+.contact:hover {
+    background: springgreen;
+    border: 0.1rem solid springgreen;
+    box-shadow: 0 0 1rem springgreen;
+}

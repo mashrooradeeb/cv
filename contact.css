@@ -1,0 +1,140 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    scroll-behavior: smooth;
+    font-size: 62.5%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+    background-color: rgb(47, 47, 47);
+}
+
+.logo {
+    font-size: 4rem;
+    margin-left: 20rem;
+    margin-top: 10rem;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #ff7a7a;
+}
+
+.sub-heading {
+    margin-left: 20rem;
+    color: white;
+}
+
+hr {
+    margin-top: 4rem;
+    margin-right: 6rem;
+    margin-bottom: 4rem;
+    margin-left: 6rem;
+}
+
+.main-form > label {
+    color: white;
+    background: orangered;
+    font-size: 1.6rem;
+    margin-right: 1.6rem;
+}
+
+.name-input {
+    padding: 0.5rem;
+    width: 24rem;
+    height: 1.8rem;
+    border: 0.5rem solid orangered;
+    border-radius: 0.5rem;
+}
+
+.email-input {
+    padding: 0.5rem;
+    width: 24rem;
+    height: 1.8rem;
+    border: 0.5rem solid orangered;
+    border-radius: 0.5rem;
+}
+
+.name {
+    padding-top: 0.8rem;
+    padding-right: 1.6rem;
+    padding-bottom: 0.8rem;
+    padding-left: 1.6rem;
+    border-radius: 0.5rem;
+}
+
+.email {
+    padding-top: 0.8rem;
+    padding-right: 1.8rem;
+    padding-bottom: 0.8rem;
+    padding-left: 1.8rem;
+    border-radius: 0.5rem;
+}
+
+.msg {
+    padding-left: 1.6rem;
+    padding-right: 38.3rem;
+    padding-top: 0.9rem;
+    border-top-left-radius: 0.5rem;
+    border-top-right-radius: 0.5rem;
+}
+
+.msg-area {
+    border: 1rem solid orangered;
+    border-bottom-right-radius: 0.5rem;
+    border-bottom-left-radius: 0.5rem;
+    padding: 1rem;
+}
+
+.main-form {
+    margin-left: 20rem;
+}
+
+.submit {
+    color: white;
+    font-size: 1.5rem;
+    background: orangered;
+    padding-top: 1rem;
+    padding-right: 2rem;
+    padding-bottom: 1rem;
+    padding-left: 2rem;
+    border-radius: 0.5rem;
+}
+
+.home {
+    text-decoration: none;
+    font-size: 2.6rem;
+    margin-left: 166rem;
+    margin-top: -3rem;
+    transition: 0.2s;
+    color: white;
+    border: 0.1rem solid steelblue;
+    background: steelblue;
+    padding-top: 0.5rem;
+    padding-right: 1rem;
+    padding-bottom: 0.5rem;
+    padding-left: 1rem;
+    border-radius: 1rem;
+}
+
+.home:hover {
+    background: springgreen;
+    border: 0.1rem solid springgreen;
+    box-shadow: 0 0 1rem springgreen;
+}
+
+.submit-btn {
+    padding-top: 1rem;
+    padding-right: 2rem;
+    padding-bottom: 1rem;
+    padding-left: 2rem;
+    background: orangered;
+    color: white;
+    border: 0.1rem solid orangered;
+    border-radius: 0.5rem;
+}
+
+.submit-btn:hover {
+    cursor: pointer;
+}
